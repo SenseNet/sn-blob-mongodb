@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{6A1B142F-2C2E-4DB8-8391-EE459A8EB78D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoDbBlobStorage", "MongoDbBlobStorage\MongoDbBlobStorage.csproj", "{5C099D4C-09C6-4578-AE18-9FE288903692}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A1B142F-2C2E-4DB8-8391-EE459A8EB78D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A1B142F-2C2E-4DB8-8391-EE459A8EB78D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A1B142F-2C2E-4DB8-8391-EE459A8EB78D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A1B142F-2C2E-4DB8-8391-EE459A8EB78D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C099D4C-09C6-4578-AE18-9FE288903692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C099D4C-09C6-4578-AE18-9FE288903692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C099D4C-09C6-4578-AE18-9FE288903692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C099D4C-09C6-4578-AE18-9FE288903692}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://sntfs04.sn.hu:8080/tfs/sensenetproductteam
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Tests\\Tests.csproj
+		SccProjectName1 = Tests
+		SccLocalPath1 = Tests
+		SccProjectUniqueName2 = MongoDbBlobStorage\\MongoDbBlobStorage.csproj
+		SccProjectName2 = MongoDbBlobStorage
+		SccLocalPath2 = MongoDbBlobStorage
+	EndGlobalSection
+EndGlobal
