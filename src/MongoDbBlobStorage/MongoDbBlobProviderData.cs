@@ -11,9 +11,9 @@ namespace SenseNet.ContentRepository.Storage.Data.MongoDbBlobStorage
         public static MongoDbBlobProviderData Create(int chunkSize, long blobSize)
         {
             if (chunkSize < 1)
-                throw new ArgumentException("The chunkSize cannot less than 1.");
-            if (blobSize < 1L)
-                throw new ArgumentException("The blobSize cannot less than 1.");
+                throw new ArgumentException("The chunkSize cannot be less than 1.");
+            if (blobSize < 0L)
+                throw new ArgumentException("The blobSize cannot be less than 0.");
 
             return new MongoDbBlobProviderData
             {
