@@ -61,8 +61,7 @@ namespace MongoDbBlobStorage.Tests
                 VersionId = versionId,
                 PropertyTypeId = propertyTypeId,
                 FileId = 0,
-                Length = fullSize,
-                UseFileStream = false
+                Length = fullSize
             };
 
             if (blobProvider != new PrivateType(typeof(BlobStorageBase)).GetStaticFieldOrProperty("BuiltInProvider"))
