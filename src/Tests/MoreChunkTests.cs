@@ -90,6 +90,7 @@ namespace MongoDbBlobStorage.Tests
         [TestMethod]
         public void Write()
         {
+            Write_TheTest(++_fileId, ChunkSize, 0);
             Write_TheTest(++_fileId, ChunkSize, 5);
             Write_TheTest(++_fileId, ChunkSize, 8);
             Write_TheTest(++_fileId, ChunkSize, 10);
